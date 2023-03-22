@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+<bean id="setinject" class="USTBATCHNO3.di_setterinjection.Roles">
+	<property name="charactername" value="Jen"></property>
+	<property name="responsibility" value="friend"></property>
+	
+</bean>
+<bean id="setinj" class="USTBATCHNO3.di_setterinjection.Roles">
+	<property name="charactername" value="Monica"></property>
+	<property name="responsibility" value="sister"></property>
+	
+</bean>
+</beans>
